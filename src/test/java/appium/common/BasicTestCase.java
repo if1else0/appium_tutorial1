@@ -26,7 +26,7 @@ public class BasicTestCase {
         capabilities.setCapability("noReset", true);
         capabilities.setCapability("unicodeKeyboard", true);
         File chromeDriverPath = new File(System.getProperty("user.dir"));
-        capabilities.setCapability("chromedriverExecutable",chromeDriverPath.getAbsolutePath()+"/chromedriver");
+        capabilities.setCapability("chromedriverExecutable",chromeDriverPath.getAbsolutePath()+"/chromedriver.exe");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         helper = new Helper(driver);
         pageHelper = new PageHelper(helper);

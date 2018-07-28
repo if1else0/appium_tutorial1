@@ -9,7 +9,8 @@
     </listeners>
     <test name="Regression1">
         <classes>
-            <class name="appium.testcases.login.LoginPermissionCheck"/>
+		<!--
+            <class name="appium.testcases.login.LoginPermissionCheck"/>-->
             <class name="appium.testcases.versioncheck.VersionCheck"/>
         </classes>
     </test>
